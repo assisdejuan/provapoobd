@@ -1,7 +1,7 @@
 
 package com.example.gerenciarTarefas;
 
-import com.example.gerenciarTarefas.models.Contato;
+import com.example.gerenciarTarefas.models.Tarefas;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
