@@ -1,7 +1,7 @@
 
 package com.example.gerenciarTarefas;
 
-import com.example.formulariocontato.models.Contato;
+import com.example.gerenciarTarefas.models.Contato;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
@@ -34,12 +34,12 @@ public class HelloController {
     protected void handleForm() {
         Contato contato = new Contato();
 
-        contato.setNome(titulo.getText());
-        contato.setSobrenome(descricao.getText());
-        contato.setEmail(prioridade.getText());
-        contato.setTelefone(tarefa1.parseLong(telefone.getText()));
-        contato.setAssunto(tarefa2.getText());
-        contato.setMensagem(tarefa3.getText());
+        contato.setTitulo(titulo.getText());
+        contato.setDescricao(descricao.getText());
+        contato.setPrioridade(prioridade.getText());
+        contato.setTarefa1(tarefa1.parseLong(telefone.getText()));
+        contato.setTarefa2(tarefa2.getText());
+        contato.setTarefa3(tarefa3.getText());
 
         showAlert(concluida);
         limparCampos();
