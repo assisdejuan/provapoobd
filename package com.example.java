@@ -1,4 +1,4 @@
-package com.example.formulariocontato;
+package com.example.gerenciarTarefas;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
